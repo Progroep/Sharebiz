@@ -31,10 +31,6 @@ body{
 	height: 100%;
 	}
 	
-img{
-	max-width: 100%;
-	}
-	
 .bottom{
 	margin-bottom: 40px;
 	}
@@ -143,8 +139,6 @@ a{
 	color: #eee;
 	text-shadow: none;
 	}
-	
-
 	
 .btn:hover{
 	background: #688db9;
@@ -794,8 +788,23 @@ a{
     background-color: #FFFFFF;
     border: 1px solid #E0E0E0;
 	height: 100px;
-	display: block;
+	width: 100%;
+	table-layout: fixed;
 	position: relative;
+	text-align: center;
+		&:before{
+			content: '';
+			  display: inline-block;
+			  height: 100%;
+			  vertical-align: middle;
+			  margin-right: -0.25em; /* Adjusts for spacing */
+		}
+		.logo-padding{
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 65%;
+			max-height: 80%;
+		}
 	}
 	
 .logobox:hover{
@@ -806,113 +815,7 @@ a{
 	border-radius: 0;
 	}
 
-	.ensemble{
-	padding: 27.5px 20px;
-	}
-	
-	.amii{
-	padding: 20px 40.5px;
-	}
-	
-	.makelaarscentrum{
-	padding: 35.5px 20px;
-	}
-	
-	.secu{
-	padding: 20px 54.5px;
-	}
-	
-	.pp{
-	padding: 20px 27.5px;
-	}
-	
-	.x10c{
-	padding: 20px 27.5px;
-	}
-	
-	.veritas{
-	padding: 20px 57.5px;
-	}
-	
-	.mkb{
-	padding: 21px 20px;
-	}
-	
-	.arsenal{
-	padding: 20px 36px;
-	}
-	
-	.tpt{
-	padding: 20px 89.5px;
-	}	
-	
-	.ouwerkerk{
-	padding: 25.5px 20px;
-	}
-	
-	.aktuariz{
-	padding: 35px 20px;
-	}
-	
-	.ardito{
-		padding: 30px 20px;
-		}
-		
-	.vaal{
-		padding: 20px 32px;
-	}		
 
-	.mz{
-		padding: 26px 20px;
-		}
-	
-	.leergeld{
-		padding: 20px 52px;
-		}
-		
-	.pica{
-		padding: 20px 73.5px;
-		}
-		
-	.schekman{
-		padding: 34.5px 20px;
-		}
-		
-	.tibn{
-		padding: 20px 66.5px;
-		}
-		
-	.tuinbouw{
-		padding: 38px 20px;
-		}
-	
-	.ronjenner{
-		padding: 20px 27px;
-		}
-		
-	.cre{
-		padding: 22.5px 20px;
-		}
-		
-	.groep{
-		padding: 34px 20px;
-		}
-		
-	.okbv{
-		padding: 14px 45px;
-		}
-		
-	.minimaal{
-		padding: 20px 25px;
-		}
-		
-	.bestadvice{
-		padding: 20px 50px;
-		}
-	
-	.munnen{
-		padding: 20px 32.5px;
-		}
 		
 .companyintro{
 	color: #666666;
