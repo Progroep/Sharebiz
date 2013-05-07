@@ -1,0 +1,190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"navbar",
+				"navbar-inner"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"tid",
+				"Tidy CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/websites/Sharebiz/_config.yml",
+		"/D/websites/Sharebiz/ondernemers.html",
+		"/D/websites/Sharebiz/_layouts/default.html",
+		"/D/websites/Sharebiz/index.html",
+		"/D/websites/Sharebiz/css/style.css",
+		"/D/websites/Sharebiz/_includes/home-content.html",
+		"/D/websites/Sharebiz/css/bootstrap.css",
+		"/D/websites/Zuidplashof/_includes/saffier-head.html",
+		"/D/websites/Sharebiz/index.md",
+		"/D/websites/gouwestad.com/index.html",
+		"/D/websites/gouwestad.com/less/style.less",
+		"/D/websites/gouwestad.com/less/bootstrap/variables.less",
+		"/D/websites/gouwestad.com/less/bootstrap/navbar.less",
+		"/D/Dropbox/Dropbox/Envato/Websites/gouwestad.com/index.html",
+		"/D/Dropbox/Dropbox/Envato/Websites/gouwestad.com/css/main.css",
+		"/D/Progroep/Google Drive/websites/Secop/code/default.master",
+		"/D/Progroep/Google Drive/websites/Secop/code/css/main.css",
+		"/C/Users/Yvonne/AppData/Roaming/Sublime Text 2/Packages/CSSTidy/CSSTidy.sublime-settings",
+		"/C/Users/Yvonne/AppData/Roaming/Sublime Text 2/Packages/CSSLint/CSSLint.sublime-settings",
+		"/C/Users/Yvonne/AppData/Roaming/Sublime Text 2/Packages/CSSLint/Default (Windows).sublime-keymap",
+		"/D/Progroep/Google Drive/websites/default/Default.master",
+		"/D/Progroep/Google Drive/websites/Secop/code/Secop.sublime-project",
+		"/C/Users/Yvonne/progroep/Google Drive/websites/Secop/code/Secop.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../../",
+			"text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"https://gathercontent.com/skin/marketing_august/"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 28.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"css/main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
