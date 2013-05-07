@@ -12,7 +12,7 @@
 */
 
 @import "bootstrap.less";
-@import "bootstrap-responsive.less";
+/* @import "bootstrap-responsive.less"; */
 @import "font-awesome.less";
 
 
@@ -25,9 +25,9 @@ html{
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 24px;
-	color: #757b84;
+	font-size: 16px;
+	line-height: 1.875em;
+	color: #557b84;
 	height: 100%;
 	}
 	
@@ -36,13 +36,26 @@ body{
 	}
 	
 p{
-	line-height: 26px;
+	line-height: 1.875em;
 	}
 	
 a{
 	color: #7DA7D9;
 	}
 	
+/* ---------------------------------------
+   Indeling
+----------------------------------------*/
+	section{
+		padding: 3em 0;
+	}
+
+	.story-width{
+		max-width: 85%;
+		margin: 0 auto;
+	}
+
+
 /* ---------------------------------------
    Typografie
 ----------------------------------------*/	
@@ -53,8 +66,10 @@ h1, h2, h3, h4, h5, h6{
 	}
 	
 h1{
-	font-size: 44px;
-	padding: 40px 0;
+	font-size: 3.5em; /* 56px */
+	  line-height: 1.0714em; /* 60px */
+	  margin-top: 0.5357em;
+	  margin-bottom: 0em;
 	}
 	
 #main h1 span{
@@ -63,13 +78,14 @@ h1{
 	}
 	
 h2{
-	font-size: 30px;
-	line-height: 34px;
-	font-weight: 400;
+	  font-size: 2.875em; /* 46px */
+  line-height: 1.3043em; /* 60px */
+  margin-top: 0.6522em;
+  margin-bottom: 0em;
 	}
 	
 h2 small{
-	font-size: 20px;
+	font-size: 0.8em;
 	color: #757b84;
 	line-height: 26px;
 	font-weight: normal;
@@ -83,7 +99,10 @@ h2 small{
 	}
 
 h3{
-	font-size: 22px;
+	 font-size: 2.125em; /* 34px */
+  line-height: 1.7647em; /* 60px */
+  margin-top: 0.8824em;
+  margin-bottom: 0em;
 	}
 
 h3 span{
@@ -92,10 +111,29 @@ h3 span{
 	}
 	
 h4{
-	font-size: 16px;
-	font-weight: bold;
-	padding: 0 0 20px;
+	 font-size: 1.75em; /* 28px */
+  line-height: 1.0714em; /* 30px */
+  margin-top: 1.0714em;
+  margin-bottom: 0em;
 	}
+
+h5{
+	 font-size: 1.375em; /* 22px */
+  line-height: 1.3636em; /* 30px */
+  margin-top: 1.3636em;
+  margin-bottom: 0em;
+}
+
+h6{
+	font-size: 1.175em;
+  line-height: 1.3636em;
+  margin-top: 1.3636em;
+  margin-bottom: 0.6em;
+}
+
+.intro{
+	line-height: 1.45em;
+}
 	
 a{
 	text-decoration: none;
@@ -116,10 +154,14 @@ a{
 
 		.brand{
 			max-width: 195px;
+			padding: 1em 20px;
 			}
 
 		.nav{
-			margin-top: 15px;
+			margin-top: 1.5em;
+			text-transform: uppercase;
+			font-size: 90%;
+			letter-spacing: 0.05em;
 		}
 	}
 }
@@ -128,6 +170,26 @@ a{
    Header
 ----------------------------------------*/
 
+.featureheader{
+	background: #55606F;
+	padding: 3em;
+	}
+	
+.featureheader-webshop{
+	background: #55606f url("../img/webshop.jpg") no-repeat center center;
+	}
+	
+.featureheader h1{
+	color: #fff;
+	padding: 0;
+	font-weight: normal;
+	}
+	
+.featureheader h2{
+	font-size: 22px;
+	padding: 5px 0;
+	font-style: italic;
+	}
 
 /* ---------------------------------------
    Buttons
@@ -156,7 +218,17 @@ a{
 .btn-primary:hover, .btn-primary:active {
 	background: #c53e2e;
 	}
+
+
+/* ---------------------------------------
+   Homepage styling
+----------------------------------------*/	
 	
+	.sharebiz-intro{
+		font-size: 1.1em;
+	}
+
+
 .resp{
 	max-width: 100%;
 	transition: all 0.2s ease 0s;
@@ -233,64 +305,8 @@ a{
 	text-indent: -9999px;
 	margin-bottom: 20px;
 	}
+	
 
-#topheader{
-	height: 110px;
-	}
-	
-#topheader .container_12{
-	position: relative;
-	}
-	
-.login{
-	position: absolute;
-	padding: 3px 6px 0px;
-	background: #55606F;
-	right: 0;
-	color: #fff;
-	font-size: 12px;
-}
-
-.login #___plus_0{
-	position: absolute;
-	top: -131px;
-	right: 0;
-	opacity: 0;
-
-}	
-
-.login:hover #___plus_0{
-	top: 0;
-	opacity: 1;
-	transition: all 0.4s ease 0s;
-	-moz-transition: all 0.4s ease 0s;
-	-webkit-transition: all 0.4s ease 0s;
-	}
-
-	
-#nav{
-	float: right;
-	padding: 55px 0 0 0;
-	}
-	
-#nav li{
-	float: left;
-	list-style: none;
-	display: inline;
-	padding: 0 0 0 40px;
-	}
-	
-#nav li a{
-	color: #757b84; 
-	text-decoration: none;
-	font-weight: 500;
-	font-size: 15px;
-	}
-	
-#nav a:hover{
-	color: #7DA7D9;
-	}
-	
 #header{
 	background: url("../images/home.jpg") center center;
 	-webkit-background-size: cover;
@@ -312,17 +328,13 @@ a{
 	padding-top: 5%;
 	letter-spacing: -1px;
 	}
-	
 
 	
 .headerintro h3{
-	font-size: 22px;
 	color: #fff;
 	}
 	
 .headerintro h1{
-	font-size: 38px;
-	line-height: 56px;
 	display: inline;
 	font-weight: lighter;
 	color: #fff;
@@ -658,31 +670,8 @@ a{
 	
 /*Eigenschappen pagina*/
 
-#featureheader{
-	background: #55606F;
-	height: 160px;
-	}
-	
-#featureheader-webshop{
-	background: #55606f url("../img/webshop.jpg") no-repeat center center;
-	height: 160px;
-	}
-	
-#featureheader h1{
-	color: #fff;
-	padding: 45px 0 10px;
-	font-weight: normal;
-	}
-	
-#featureheader h2{
-	font-size: 22px;
-	padding: 5px 0;
-	font-style: italic;
-	}
 	
 .intro{
-	line-height: 38px;
-	padding: 20px 0 40px;
 	font-weight: 100;
 	color: #5c6168;
 	}
@@ -952,7 +941,6 @@ iframe{
 	General app styling 
 */
 #twitter{
-	width: 960px;
 	height: 210px;
 	margin: auto; 
 	font-family: 'Open Sans', sans-serif;
