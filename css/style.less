@@ -16,6 +16,9 @@
 @import "font-awesome.less";
 
 
+/* ---------------------------------------
+   Basis stijlen
+----------------------------------------*/
 html{
 	height: 100%;
 }
@@ -44,6 +47,10 @@ a{
 	color: #7DA7D9;
 	}
 	
+/* ---------------------------------------
+   Typografie
+----------------------------------------*/	
+
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Open Sans', sans-serif;
 	color: #2E3846;
@@ -102,6 +109,33 @@ a{
 	float: right;
 	}
 	
+/* ---------------------------------------
+   Navbar
+----------------------------------------*/	
+
+.navbar{
+	margin-bottom: 0;
+	.navbar-inner{
+		background: none;
+
+		.brand{
+			max-width: 195px;
+			}
+
+		.nav{
+			margin-top: 15px;
+		}
+	}
+}
+
+/* ---------------------------------------
+   Header
+----------------------------------------*/
+
+
+/* ---------------------------------------
+   Buttons
+----------------------------------------*/	
 .btn{
 	background: #7da7d9;
 	border: none;
@@ -239,14 +273,6 @@ a{
 	-webkit-transition: all 0.4s ease 0s;
 	}
 
-#logo{
-	background: url("../images/logo.png") no-repeat;
-	margin-top: 30px;
-	width: 195px;
-	float: left;
-	text-indent: -9999px;
-	height: 45px;
-	}
 	
 #nav{
 	float: right;
