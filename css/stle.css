@@ -7509,8 +7509,7 @@ a {
    Header
 ----------------------------------------*/
 header {
-  background: url("../img/dark.jpg") no-repeat center center;
-  background-attachment: fixed;
+  background: url("../img/dark.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   padding: 6em 0;
@@ -7538,7 +7537,7 @@ ul li {
   margin: 0.5em 0;
 }
 .carousel {
-  margin-top: 6em;
+  margin-top: 8em;
 }
 .carousel-caption {
   position: relative;
@@ -7563,14 +7562,18 @@ ul li {
   padding: 5px 0;
   font-style: italic;
 }
+footer {
+  background: #2E3846;
+  color: #efefef;
+}
 /* ---------------------------------------
    Buttons
 ----------------------------------------*/.btn {
   background: #7da7d9;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
   box-shadow: none;
   color: #eee;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: none;
 }
 .btn:hover {
   background: #688db9;
@@ -7589,7 +7592,7 @@ ul li {
   font-size: 1.1em;
 }
 .pand {
-  background: url("http://rdio-a.akamaihd.net/media/marketing/images/features/hero-sync-20121126.jpg") no-repeat center fixed;
+  background: url("http://rdio-a.akamaihd.net/media/marketing/images/features/hero-sync-20121126.jpg") no-repeat center;
   background-size: cover;
   padding: 4em 0;
   color: #fff;
@@ -7608,7 +7611,7 @@ ul li {
 }
 .ondernemers {
   overflow: hidden;
-  background: #f4f4f4;
+  background: #eee;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .ondernemers p {
@@ -7618,20 +7621,6 @@ ul li {
 .ondernemers img {
   margin-bottom: -14em;
   border-radius: 8px;
-}
-.hands-on {
-  background: url("http://static.dunkedcdn.com/assets/site/images/ipad-template-image.jpg") right bottom no-repeat;
-}
-.teams {
-  background: url("../img/faces.jpg") repeat-x center;
-  height: 300px;
-}
-.teamfotos img {
-  max-width: 90px;
-  margin-right: 1em;
-}
-.teamfotos img :last-child {
-  margin-right: 0;
 }
 .resp {
   max-width: 100%;
@@ -7696,7 +7685,7 @@ ul li {
   margin-bottom: 20px;
 }
 #header {
-  background: url("../img/dark.jpg") center center fixed;
+  background: url("../img/dark.jpg") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -7711,9 +7700,6 @@ ul li {
 #header h5,
 #header h6 {
   color: #fff;
-}
-#header h1 {
-  font-size: 5.5em;
 }
 .slogan {
   color: #7da7d9;
@@ -7865,7 +7851,7 @@ ul li {
   padding: 25px 0 65px;
 }
 #priceheader h1 {
-  color: #fff;
+  color: #27313D;
   padding: 20px 0 60px;
 }
 .plan {

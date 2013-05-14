@@ -7493,6 +7493,7 @@ a {
 .navbar .navbar-inner {
   background: none;
   border: none;
+  box-shadow: none;
 }
 .navbar .navbar-inner .brand {
   max-width: 195px;
@@ -7507,6 +7508,44 @@ a {
 /* ---------------------------------------
    Header
 ----------------------------------------*/
+header {
+  background: url("../img/dark.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 6em 0;
+}
+header h1,
+header h5 {
+  color: #fff;
+  margin: 0;
+}
+.bedrijfsintro h1 {
+  margin-top: 0;
+}
+.portret {
+  position: relative;
+  z-index: -1;
+}
+.portret:after {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 5px #222;
+}
+ul li {
+  margin: 0.5em 0;
+}
+.carousel {
+  margin-top: 6em;
+}
+.carousel-caption {
+  position: relative;
+}
+.graylighter {
+  background: #eee;
+}
 .featureheader {
   background: #55606F;
   padding: 3em;
@@ -7528,25 +7567,18 @@ a {
    Buttons
 ----------------------------------------*/.btn {
   background: #7da7d9;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
   color: #eee;
-  text-shadow: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .btn:hover {
   background: #688db9;
   color: #fff;
 }
-.btn-primary {
-  background: #DD4A38;
-  color: #fff;
-  border: none;
-  box-shadow: none;
-  -moz-box-shadow: none;
-}
-.btn-primary:hover,
-.btn-primary:active {
-  background: #c53e2e;
+.btn-large {
+  font-size: 1.4em;
+  padding: 1em;
 }
 /* ---------------------------------------
    Homepage styling
@@ -7557,7 +7589,7 @@ a {
   font-size: 1.1em;
 }
 .pand {
-  background: url("http://rdio-a.akamaihd.net/media/marketing/images/features/hero-sync-20121126.jpg") no-repeat center;
+  background: url("http://rdio-a.akamaihd.net/media/marketing/images/features/hero-sync-20121126.jpg") no-repeat center fixed;
   background-size: cover;
   padding: 4em 0;
   color: #fff;
@@ -7576,7 +7608,7 @@ a {
 }
 .ondernemers {
   overflow: hidden;
-  background: #eee;
+  background: #f4f4f4;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .ondernemers p {
@@ -7586,6 +7618,20 @@ a {
 .ondernemers img {
   margin-bottom: -14em;
   border-radius: 8px;
+}
+.hands-on {
+  background: url("http://static.dunkedcdn.com/assets/site/images/ipad-template-image.jpg") right bottom no-repeat;
+}
+.teams {
+  background: url("../img/faces.jpg") repeat-x center;
+  height: 300px;
+}
+.teamfotos img {
+  max-width: 90px;
+  margin-right: 1em;
+}
+.teamfotos img :last-child {
+  margin-right: 0;
 }
 .resp {
   max-width: 100%;
@@ -7650,12 +7696,24 @@ a {
   margin-bottom: 20px;
 }
 #header {
-  background: url("../images/home.jpg") center center;
+  background: url("../img/dark.jpg") center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   padding: 10em 0;
   overflow: hidden;
+  color: #fff;
+}
+#header h1,
+#header h2,
+#header h3,
+#header h4,
+#header h5,
+#header h6 {
+  color: #fff;
+}
+#header h1 {
+  font-size: 5.5em;
 }
 .slogan {
   color: #7da7d9;
@@ -7807,7 +7865,7 @@ a {
   padding: 25px 0 65px;
 }
 #priceheader h1 {
-  color: #27313D;
+  color: #fff;
   padding: 20px 0 60px;
 }
 .plan {

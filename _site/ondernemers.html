@@ -347,19 +347,19 @@
 	</div>
 	
 
-<div class="footer">
+<footer>
 	<div class="container">
-		<div class="row">
-			<p><a href="over.html">Neem contact op met Sharebiz</a> of bel 079-316 16 66</p>
-			<div class="span6">
+		<hr>
+		<div class="row-fluid story-width center">
+
+			<div class="span8 offset2">
 				<p class="copy">Copyright &copy;2013 Sharebiz. All Rights Reserved</p>
-			</div>
-			<div class="span6">
-				<p class="link"><a href="http://www.gouwestadmm.nl" class="link">designed by <span>Gouwestad Marketing &amp; Media</span></a></p>
+
+					<p><a href="http://www.gouwestadmm.nl" class="link">designed by <span>Gouwestad Marketing &amp; Media</span></a></p>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -380,6 +380,13 @@
 		$("#twitter").tweetrotator({ operator: "ShareBizNL", multiple_colors: false, tweetlimit: 10, autorotate: true, idletime: 5 });
 		});
 		</script> 
+
+		<script>
+		$(document).ready(function () {
+			 $("[rel='popover']").popover();
+			  $("[rel='tooltip']").tooltip();
+			 });
+		</script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
