@@ -7868,13 +7868,6 @@ ul li {
   color: #fff;
   padding: 20px 0 60px;
 }
-#priceheader h1 .well h3 {
-  margin-top: 0;
-  line-height: 1.2em;
-}
-#priceheader h1 .well h6 {
-  margin-top: 0;
-}
 .plan {
   background: #ECEEF1;
   border-radius: 5px;
@@ -7916,6 +7909,13 @@ ul li {
 }
 .plan.other .priceheader {
   background: none;
+}
+.priceheader .well h3 {
+  margin-top: 0;
+  line-height: 1.2em;
+}
+.priceheader .well h6 {
+  margin-top: 0;
 }
 .plan.other h3 {
   color: #fff;
