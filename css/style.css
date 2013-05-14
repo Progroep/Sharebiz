@@ -7910,11 +7910,11 @@ ul li {
 .plan.other .priceheader {
   background: none;
 }
-.priceheader .well h3 {
+.priceheader h3 {
   margin-top: 0;
   line-height: 1.2em;
 }
-.priceheader .well h6 {
+.priceheader h6 {
   margin-top: 0;
 }
 .plan.other h3 {
