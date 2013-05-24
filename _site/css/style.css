@@ -7631,6 +7631,21 @@ ul li {
   margin-bottom: -20em;
   border-radius: 8px;
 }
+.ondernemers .btn {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.ondernemers .btn:before {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+  content: "";
+  display: block;
+  float: left;
+  font-family: "FontAwesome";
+  font-size: 1.5em;
+  height: 100%;
+  margin: -0.7em 1em -0.7em -0.7em;
+  padding: 0.7em;
+  border-right: 1px solid rgba(0, 0, 0, 0.03);
+}
 .hands-on {
   background: url("../img/logo-d.jpg") right bottom no-repeat;
 }
