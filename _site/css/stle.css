@@ -7509,7 +7509,8 @@ a {
    Header
 ----------------------------------------*/
 header {
-  background: url("../img/dark.jpg") no-repeat center center fixed;
+  background: url("../img/dark.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   color: #fff;
   padding: 6em 0;
@@ -7537,7 +7538,7 @@ ul li {
   margin: 0.5em 0;
 }
 .carousel {
-  margin-top: 8em;
+  margin-top: 6em;
 }
 .carousel-caption {
   position: relative;
@@ -7562,18 +7563,15 @@ ul li {
   padding: 5px 0;
   font-style: italic;
 }
-footer {
-  background: #2E3846;
-  color: #efefef;
-}
 /* ---------------------------------------
    Buttons
 ----------------------------------------*/.btn {
   background: #7da7d9;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: none;
   box-shadow: none;
   color: #eee;
-  text-shadow: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .btn:hover {
   background: #688db9;
@@ -7592,10 +7590,21 @@ footer {
   font-size: 1.1em;
 }
 .pand {
-  background: url("http://rdio-a.akamaihd.net/media/marketing/images/features/hero-sync-20121126.jpg") no-repeat center;
+  background: url("../img/logo-wand.jpg") no-repeat center fixed;
   background-size: cover;
   padding: 4em 0;
   color: #fff;
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.pand .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+}
+.pand .container {
+  position: relative;
 }
 .pand h1,
 .pand h2 {
@@ -7611,7 +7620,7 @@ footer {
 }
 .ondernemers {
   overflow: hidden;
-  background: #eee;
+  background: #f4f4f4;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .ondernemers p {
@@ -7619,8 +7628,22 @@ footer {
   margin: 0 auto 3em;
 }
 .ondernemers img {
-  margin-bottom: -14em;
+  margin-bottom: -20em;
   border-radius: 8px;
+}
+.hands-on {
+  background: url("../img/logo-d.jpg") right bottom no-repeat;
+}
+.teams {
+  background: url("../img/faces.jpg") repeat-x center;
+  height: 300px;
+}
+.teamfotos img {
+  max-width: 90px;
+  margin-right: 1em;
+}
+.teamfotos img :last-child {
+  margin-right: 0;
 }
 .resp {
   max-width: 100%;
@@ -7650,7 +7673,6 @@ footer {
   text-align: center;
   padding-top: 25%;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-  opacity: 0;
   transition: all 0.2s ease 0s;
   -moz-transition: all 0.2s ease 0s;
   -webkit-transition: all 0.2s ease 0s;
@@ -7685,13 +7707,24 @@ footer {
   margin-bottom: 20px;
 }
 #header {
-  background: url("../img/dark.jpg") center center;
+  background: url("../img/pand.jpg") center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   padding: 10em 0;
   overflow: hidden;
   color: #fff;
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+#header .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+}
+#header .container {
+  position: relative;
 }
 #header h1,
 #header h2,
@@ -7700,6 +7733,18 @@ footer {
 #header h5,
 #header h6 {
   color: #fff;
+}
+#header h1 {
+  font-size: 4em;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+#header h1 span {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  display: inline-block;
 }
 .slogan {
   color: #7da7d9;
@@ -7851,7 +7896,7 @@ footer {
   padding: 25px 0 65px;
 }
 #priceheader h1 {
-  color: #27313D;
+  color: #fff;
   padding: 20px 0 60px;
 }
 .plan {
@@ -7895,6 +7940,13 @@ footer {
 }
 .plan.other .priceheader {
   background: none;
+}
+.priceheader h3 {
+  margin-top: 0;
+  line-height: 1.2em;
+}
+.priceheader h6 {
+  margin-top: 0;
 }
 .plan.other h3 {
   color: #fff;

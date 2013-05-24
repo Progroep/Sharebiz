@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"background-",
+				"background-attachment"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"text",
 				"text-transform"
+			],
+			[
+				"d",
+				"display"
 			],
 			[
 				"navbar",
@@ -15,13 +31,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 4736,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 17137,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Yvonne/Desktop/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6999,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "hands-on.html",
+			"settings":
+			{
+				"buffer_size": 8330,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -56,11 +124,83 @@
 	},
 	"file_history":
 	[
-		"/D/websites/Sharebiz/_config.yml",
+		"/D/websites/Sharebiz/css/bootstrap.less",
+		"/D/websites/Sharebiz/hans-ouwerkerk.html",
 		"/D/websites/Sharebiz/ondernemers.html",
+		"/D/websites/Sharebiz/webshop.html",
+		"/D/websites/Sharebiz/prijzen.html",
+		"/D/websites/sharebiz.nl/prijzen.html",
+		"/D/websites/sharebiz.nl/ondernemers.html",
+		"/C/Users/Yvonne/Desktop/initializr/index.html",
+		"/D/websites/Sharebiz/css/style.css",
+		"/D/websites/Sharebiz/css/font-awesome.css",
+		"/D/websites/max4u export ftp/bespaarconcept.html",
+		"/D/websites/max4u/less/bootstrap/font-awesome.less",
+		"/D/websites/max4u/js/main.js",
+		"/D/websites/max4u/_config.yml",
+		"/D/websites/max4u/less/style.less",
+		"/D/websites/max4u/bespaarconcept.html",
+		"/D/websites/max4u/Makefile",
+		"/D/websites/sharebiz.nl/css/style.css",
+		"/D/websites/Woonmeester 2/Default.master.cs",
+		"/D/websites/Woonmeester 2/funda.xml",
+		"/D/websites/Woonmeester 2/Default.master",
+		"/D/websites/dewoonmeester.nl/Default.master.cs",
+		"/C/Users/Yvonne/Desktop/gitmerge.php",
+		"/D/websites/wozexperts.nl/.gitconfig",
+		"/C/Users/Yvonne/Desktop/error_log",
+		"/C/Users/Yvonne/Desktop/xmlscript.php",
+		"/D/websites/wozexperts.nl/werkwijze.html",
+		"/D/websites/Woonmeester 2/Listing.aspx",
+		"/D/websites/wozexperts.nl/aanmelden.php",
+		"/D/websites/wozexperts.nl/less/style.less",
+		"/D/websites/bootstrap/less/bootstrap.less",
+		"/D/websites/MM-boilerplate/less/bootstrap.less",
+		"/D/websites/MM-boilerplate/less/base.less",
+		"/D/websites/MM-boilerplate/Makefile",
+		"/D/websites/wozexperts.nl/index.html",
+		"/D/websites/wozexperts.nl/_includes/menu.html",
+		"/D/websites/max4u/_includes/head.html",
+		"/D/websites/max4u/_includes/footer.html",
+		"/D/websites/max4u/faq.html",
+		"/C/Users/Yvonne/Desktop/gouw-woning.html",
+		"/C/Users/Yvonne/Desktop/gouw-woning.css",
+		"/D/websites/max4u/_site/less/style.less",
+		"/D/websites/Woonmeester 2/css/style.css",
+		"/D/websites/Woonmeester 2/js/flexslider.css",
+		"/D/websites/Woonmeester 2/css/bootstrap.css",
+		"/D/websites/Woonmeester 2/home.aspx",
+		"/D/websites/Woonmeester 2/home.aspx.cs",
+		"/D/websites/max4u/contact.php",
+		"/D/websites/max4u/process.php",
+		"/D/websites/max4u/_site/contact.php",
+		"/D/websites/max4u/_includes/menu.html",
+		"/D/websites/max4u/index.html",
+		"/D/websites/max4u/less/base.less",
+		"/D/websites/progroep/sites/Woonmeester 2/Default.master",
+		"/D/websites/progroep/sites/Woonmeester 2/Default.master.cs",
+		"/D/websites/Woonmeester 2/Overzicht.aspx",
+		"/D/websites/makelaardij HTML versie/nieuwbouw/denieuwehoop/index.html",
+		"/D/websites/makelaardij HTML versie/css/style.css",
+		"/D/websites/makelaardij HTML versie/index.html",
+		"/D/websites/makelaardij/nieuwbouw/denieuwehoop/index.html",
+		"/D/Ruby193/lib/ruby/1.9.1/webrick/httpresponse.rb",
+		"/D/websites/makelaardij/_config.yml",
+		"/D/websites/Woonmeester 2/dsadd",
+		"/D/websites/Zuidplashof/less/style.less",
+		"/D/websites/max4u/contact.html",
+		"/D/websites/woonmeester2/css/style.css",
+		"/D/websites/woonmeester2/Default.master",
+		"/D/websites/woonmeester2/Overzicht.aspx",
+		"/D/websites/max4u/less/bootstrap/variables.less",
+		"/D/websites/max4u/less/bootstrap/bootstrap.less",
+		"/D/websites/max4u/over.html",
+		"/D/websites/Noordpark-Type-A-master/js/main.js",
+		"/D/websites/sharebiz.nl/sharebizball.html",
+		"/D/websites/sharebiz.nl/over.html",
+		"/D/websites/Sharebiz/_config.yml",
 		"/D/websites/Sharebiz/_layouts/default.html",
 		"/D/websites/Sharebiz/index.html",
-		"/D/websites/Sharebiz/css/style.css",
 		"/D/websites/Sharebiz/_includes/home-content.html",
 		"/D/websites/Sharebiz/css/bootstrap.css",
 		"/D/websites/Zuidplashof/_includes/saffier-head.html",
@@ -89,6 +229,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -96,6 +237,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".pricehead",
+			"footer",
+			"large",
+			"row",
+			"h5",
+			"h4",
+			"intro",
+			"fluid",
+			"row",
+			"grid_3",
+			"alpha",
+			"omega",
+			"grid_3",
+			"logo",
+			"video",
+			"class=\"scroll-smooth\"",
+			"scroll",
+			"faq",
+			"scroll",
+			"panel",
+			".container",
+			"banner",
+			"start",
+			"rptHous",
+			"button",
+			"btn",
+			"button",
+			"btn",
+			"stellar",
 			"../../",
 			"text"
 		],
@@ -116,8 +286,173 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 4736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3044,
+								3044
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.less",
+					"settings":
+					{
+						"buffer_size": 17137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5754,
+								5754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6311.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Yvonne/Desktop/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 146980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143065,
+								143065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 122497.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2985,
+								2985
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "hands-on.html",
+					"settings":
+					{
+						"buffer_size": 8330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8330,
+								8330
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -175,11 +510,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
