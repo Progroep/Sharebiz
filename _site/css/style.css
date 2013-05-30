@@ -7660,6 +7660,12 @@ ul li {
 .teamfotos img :last-child {
   margin-right: 0;
 }
+.tour {
+  padding: 0 0 3em;
+}
+#mapCanvas img {
+  max-width: none;
+}
 .resp {
   max-width: 100%;
   transition: all 0.2s ease 0s;
@@ -7726,7 +7732,7 @@ ul li {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 10em 0;
+  height: 85%;
   overflow: hidden;
   color: #fff;
   position: relative;
@@ -7783,7 +7789,7 @@ ul li {
 }
 .headerintro {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 5%;
+  padding-top: 20%;
   letter-spacing: -1px;
 }
 .headerintro h1 {
