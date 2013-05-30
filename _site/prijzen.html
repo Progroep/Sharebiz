@@ -200,12 +200,12 @@
 		 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
 function initialize() {
-  var fenway = new google.maps.LatLng(42.345573,-71.098326);
+  var sharebiz = new google.maps.LatLng(52.037625,4.4994);
   var panoramaOptions = {
-    position: fenway,
+    position: sharebiz,
     pov: {
-      heading: 34,
-      pitch: 10
+      heading: 80,
+      pitch: 1
     }
   };
   var panorama = new  google.maps.StreetViewPanorama(document.getElementById('pano'),panoramaOptions);
